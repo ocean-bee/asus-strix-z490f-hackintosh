@@ -17,7 +17,7 @@ Here's the usual info screenshot plus Netflix working on Safari, a sign of worki
 - Case: NZXT H510i (2020)
 
 ## Working
-Everything appears to be working OK, except for the native macOS updater as of macOS 11.2 and some minor sleep bugs, detailed below.
+Everything appears to be working **OK**, except for the native macOS updater as of macOS 11.2 and some minor sleep bugs, detailed below.
 
 ## Not Working
 ### 1. macOS Software Update is currently buggy
