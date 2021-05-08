@@ -14,3 +14,8 @@ Current solution is to either install OS updates natively and proceed with a cle
 
 ### 2. Sleep bugs
 This isn't actually so much an issue with going to sleep but rather staying asleep continuously. Occasionally the machine will at random wake itself from sleep, waking for approximatley 2-15 seconds, and then returning to sleep. This is most likely caused by a USB peripheral, the Intel NIC or perhaps powernap working as intended, but I've neglected to investigate this further due to this being a very minor annoyance rather than an actual issue. Likewise this same bug occurs when sleeping on windows, which leads me to believe its caused by the two formers rather than the latter.
+
+## Usage
+Feel free to use my EFI for your own Hackintosh projects, just be careful as your config needs may differ depending on your hardware, which may or may not result in failed boots, errors, or loss of data. You should follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for configuring and installing OpenCore for your machine.
+
+Otherwise if you do wind up using my config.plist make sure to add the proper generated values for SystemProductName, SystemSerialNumber, MLB, ROM, and SMUID under the platforminfo section of the config.plist. More info on this is detailed in [Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo).
