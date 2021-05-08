@@ -14,6 +14,7 @@ Here's the usual info screenshot plus Netflix working on Safari, a sign of worki
 - GPU: SAPPHIRE PULSE AMD Radeon RX 5600 XT 
 - RAM: G.SKILL Aegis 16GB
 - SSD: Kingston 500GB A2000 M.2 2280 NVME SSD
+- Case: NZXT H510i (2020)
 
 ## Working
 Everything appears to be working OK, except for the native macOS updater as of macOS 11.2 and some minor sleep bugs, detailed below.
@@ -33,3 +34,5 @@ Feel free to use my personal EFI folder for your own Hackintosh projects, just b
 Otherwise if you do wind up using my config.plist make sure to add the proper values for MLB, ROM, SystemSerialNumber,   and SystemUUID under the platforminfo section. More info on this is detailed in [Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo).
 
 Note: To enable GPU hardware acceleration for my AMD Navi card I had to use the iMacPro1,1 SMBIOS. This differs from the official OpenCore guide for Comet Lake which suggests using the iMac20,X SMBIOS. For whatever reasons GPU hardware acceleration would fail when using it. While I've had zero negative consequences using the iMacPro1,1 SMBIOS YMMV, in which case you can alternatively use the MacPro7,1 SMBIOS to enable GPU HW acceleration. Though, keep in mind you will have to fix the Memory Modules Misconfigured error which is detailed [here in Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html#mapping-our-memory).
+
+As well, if you're using a different motherboard / case, in which case your USB ports differ in some way, you'll need to generate your own **USBmap.kext**. This process is detailed [here in Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/).
