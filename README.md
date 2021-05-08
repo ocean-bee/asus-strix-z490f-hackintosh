@@ -1,4 +1,4 @@
-# Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9
+# Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9 With GPU HW Acceleration
 ![HW info + HW Acceleration](static/working.jpg)
 
 
