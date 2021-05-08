@@ -1,12 +1,12 @@
-## Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9
+# Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9
 ![HW info + HW Acceleration](static/HW-acceleration-ok.jpg)
 
 
-# Working
+## Working
 Everything, except the native macOS updater and some minor sleep bugs, detailed below.
 
 
-# Not Working
+## Not Working
 ### 1. macOS Software Update is currently buggy.
 OS updates appear to install, but don't seem to take any effect, aside from successfully updating the recovery partition. Likewise duplicate macOS boot options appear in the OpenCore selector menu post update. This issue seems to have occurred since Apple released macOS 11.2, as the native updater prior to 11.2 was working as intended. This is possibly due to errors in the CSR partition, but I've yet to fully verify this. SIP seems to be working and OK, but might also be the source of this bug.
 
