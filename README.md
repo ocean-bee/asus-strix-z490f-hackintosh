@@ -2,6 +2,9 @@
 
 Hi! This repo is a result of me following [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/), and I insist you do the same for your Hackintosh. Here you can find my personal EFI folder using OpenCore 0.6.9 for use with my Hackintosh. I tend to update this repo as new macOS versions become available, in which case I'll update to the latest available OpenCore release plus kexts around that time. If you have hardware similar to mine you can probably use my EFI folder without much modification, if you intend to do so read on.
 
+
+<!-- toc -->
+
 ## Hardware
 ![HW info + HW Acceleration](static/working.jpg)
 Here's the usual info screenshot plus Netflix working on Safari, a sign of working GPU HW Acceleration & DRM content. 
@@ -20,7 +23,7 @@ Here's the usual info screenshot plus Netflix working on Safari, a sign of worki
 Everything appears to be working **OK**, except for the native macOS updater as of macOS 11.2 and some minor sleep bugs, detailed below.
 
 ## Not Working
-### 1. macOS Software Update is currently buggy
+### 1. Updating OS via macOS Software Update utility
 OS updates appear to install, but don't seem to take any effect, aside from successfully updating the recovery partition. Likewise duplicate macOS boot options appear in the OpenCore selector menu post update. This issue seems to have occurred since Apple released macOS 11.2, as the native updater prior to 11.2 was working as intended. This is possibly due to errors in the CSR partition, but I've yet to fully verify this. SIP seems to be working and OK, but might also be the source of this bug.
 
 Current solution is to either install OS updates natively and proceed with a clean install via the updated recovery (migrating all user data via time machine backup restore), or to simply use the internet recovery (untested) to wipe and reinstall the latest macOS (again migrating user data via time machine). Either way keep a bootable USB handy to proceed with the reinstall, as the EFI partition gets wiped when erasing and reformating the macOS boot drive.
