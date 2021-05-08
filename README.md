@@ -1,10 +1,19 @@
 # Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9 with GPU HW Acceleration
 ![HW info + HW Acceleration](static/working.jpg)
-Here's the usual info screenshot plus Netflix working on Safari, a sign of successful GPU HW Acceleration. 
+Here's the usual info screenshot plus Netflix working on Safari, a sign of successful GPU HW Acceleration & DRM content. 
+
+## Hardware
+- Motherboard: ASUS STRIX Z490F
+- Networking:
+    - Ethernet: Intel I225-V
+    - WiFi + Bluetooth: Fenvi T919 (BCM94360CD)
+- CPU: Intel i7 10700K
+- GPU: SAPPHIRE PULSE AMD Radeon RX 5600 XT 
+- RAM: G.SKILL Aegis 16GB
+- SSD: Kingston 500GB A2000 M.2 2280 NVME SSD
 
 ## Working
-Everything, except the native macOS updater and some minor sleep bugs, detailed below.
-
+Everything appears to be working OK, except for the native macOS updater as of macOS 11.2 and some minor sleep bugs, detailed below.
 
 ## Not Working
 ### 1. macOS Software Update is currently buggy
