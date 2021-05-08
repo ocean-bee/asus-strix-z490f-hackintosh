@@ -33,7 +33,7 @@ Feel free to use my personal EFI folder for your own Hackintosh projects, just b
 
 Otherwise if you do wind up using my config.plist make sure to add the proper values for MLB, ROM, SystemSerialNumber,   and SystemUUID under the platforminfo section. More info on this is detailed in [Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo).
 
-To keep up to date with this project, I recommend cloning this repo so you always the latest and greatest.
+To automatically keep up to date with this project, I recommend cloning this repo. 
 - `gh repo clone ocean-bee/asus-strix-z490f-hackintosh`
 
 Note: To enable GPU hardware acceleration for my AMD Navi card I had to use the iMacPro1,1 SMBIOS. This differs from the official OpenCore guide for Comet Lake which suggests using the iMac20,X SMBIOS. For whatever reasons GPU hardware acceleration would fail when using it. While I've had zero negative consequences using the iMacPro1,1 SMBIOS YMMV, in which case you can alternatively use the MacPro7,1 SMBIOS to enable GPU HW acceleration. Though, keep in mind you will have to fix the Memory Modules Misconfigured error which is detailed [here in Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html#mapping-our-memory).
