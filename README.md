@@ -2,9 +2,6 @@
 
 Hi! This repo is a result of me following [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/), and I insist you do the same for your Hackintosh. Here you can find my personal EFI folder using OpenCore 0.6.9 for use with my Hackintosh. I tend to update this repo as new macOS versions become available, in which case I'll update to the latest available OpenCore release plus kexts around that time. If you have hardware similar to mine you can probably use my EFI folder without much modification, if you intend to do so read on.
 
-
-<!-- toc -->
-
 ## Hardware
 ![HW info + HW Acceleration](static/working.jpg)
 Here's the usual info screenshot plus Netflix working on Safari, a sign of working GPU HW Acceleration & DRM content. 
