@@ -1,6 +1,6 @@
 # Big Sur Hackintosh on the ASUS STRIX Z490F via OpenCore 0.6.9 With GPU HW Acceleration
 ![HW info + HW Acceleration](static/working.jpg)
-Here's the usual HW info screenshot plus Netflix working, a sign of successful GPU HW Acceleration. 
+Here's the usual info screenshot plus Netflix working on Safari, a sign of successful GPU HW Acceleration. 
 
 ## Working
 Everything, except the native macOS updater and some minor sleep bugs, detailed below.
